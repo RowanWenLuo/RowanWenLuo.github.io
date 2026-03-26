@@ -8,51 +8,86 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Ph.D. student at the Institute of Computational Linguistics, School of Computer Science, Peking University, advised by Prof. Houfeng Wang.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on building reliable and trustworthy large generative models, with a particular emphasis on hallucination, factuality, and mechanistic interpretability. I am broadly interested in developing AI systems that are more truthful, interpretable, and aligned with human expectations. Feel free to reach out if you are interested in collaboration or have related research ideas.
 
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+## First Author
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">arXiv 2026</span>
+<a href="https://arxiv.org/abs/2601.07422">Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations</a>,
+<strong>Wen Luo</strong>, Guangyue Peng, Wei Li, et al.
+</p>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">ACL 2025</span>
+<a href="https://aclanthology.org/2025.acl-long.1320/">Odysseus Navigates the Sirens’ Song: Dynamic Focus Decoding for Factual and Diverse Open-Ended Text Generation</a>,
+<strong>Wen Luo</strong>, Feifan Song, Wei Li, et al.
+</p>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">ACM MM 2024</span>
+<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681367">Shapley Value-based Contrastive Alignment for Multimodal Information Extraction</a>,
+<strong>Wen Luo</strong>, Yu Xia, Tianshu Shen, et al.
+</p>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">arXiv 2024</span>
+<a href="https://arxiv.org/abs/2406.07070">HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation</a>,
+<strong>Wen Luo</strong>, Tianshu Shen, Wei Li, et al.
+</p>
+
+## Co-Author
+
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">arXiv 2026</span>
+<a href="https://arxiv.org/abs/2602.14469">Measuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation</a>,
+Guangyue Peng, Zongchao Chen, <strong>Wen Luo</strong>, et al.
+</p>
+
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">ACL 2025 Findings</span>
+<a href="https://aclanthology.org/2025.findings-acl.1090/">Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction</a>,
+Guangyue Peng, Wei Li, <strong>Wen Luo</strong>, et al.
+</p>
+
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">ACL 2025 Findings</span>
+<a href="https://aclanthology.org/2025.findings-acl.655/">Well Begun is Half Done: Low-resource Preference Alignment by Weak-to-Strong Decoding</a>,
+Feifan Song, Shaohang Wei, <strong>Wen Luo</strong>, et al.
+</p>
+
+<p>
+<span style="display:inline-block;padding:0.1rem 0.6rem;margin-right:0.45rem;border-radius:999px;color:#fff;background:#00369f;font-size:.78em;line-height:1.4;vertical-align:middle;">ACL 2025</span>
+<a href="https://aclanthology.org/2025.acl-long.1385/">Learn to Memorize: Scalable Continual Learning in Semiparametric Models with Mixture-of-Neighbors Induction Memory</a>,
+Guangyue Peng, Tao Ge, <strong>Wen Luo</strong>, et al.
+</p>
+
+<span class='anchor' id='honors-and-awards'></span>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025* President’s Scholarship (Top 1%), Peking University
+- *2025* BOSS Zhipin Scholarship
+- *2025* Award for Scientific Research, Peking University
+- *2022* Ubiquant Scholarship
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<span class='anchor' id='education'></span>
+
+# 📖 Education
+- *2024.09 – 2029.06 (expected)*, Ph.D., Institute of Computational Linguistics, School of Computer Science, Peking University.
+- *2020.09 – 2024.06*, Undergraduate, School of Electronics Engineering and Computer Science, Peking University.
+
+<span class='anchor' id='internships'></span>
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.08 - Present*, Microsoft Research Asia, Beijing.
+- *2023.05 - 2024.08*, Beijing Academy of Artificial Intelligence (BAAI), Beijing.
+
