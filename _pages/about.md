@@ -39,11 +39,11 @@ redirect_from:
 </section>
 
 <section id="publications" aria-labelledby="h-pubs">
-  <h2 class="eyebrow" id="h-pubs">Publications<span class="count">9 entries</span></h2>
+  <h2 class="eyebrow" id="h-pubs">Publications<span class="count">13 entries</span></h2>
   <div class="tabs" role="group" aria-label="Filter publications">
-    <button class="tab" data-filter="all" aria-pressed="true">All · 9</button>
+    <button class="tab" data-filter="all" aria-pressed="true">All · 13</button>
     <button class="tab" data-filter="first" aria-pressed="false">First-author · 5</button>
-    <button class="tab" data-filter="co" aria-pressed="false">Co-author · 4</button>
+    <button class="tab" data-filter="co" aria-pressed="false">Co-author · 8</button>
   </div>
   <div class="publist">
 
@@ -121,6 +121,46 @@ redirect_from:
       </div>
     </article>
 
+    <article class="pub" data-role="co">
+      <div class="yr">2025</div>
+      <div>
+        <div class="meta"><span class="badge spotlight">NeurIPS 2025 · Spotlight</span></div>
+        <h3><a href="https://arxiv.org/abs/2505.12891" target="_blank" rel="noopener">TIME: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios</a></h3>
+        <p class="au">Shaohang Wei, Wei Li, Feifan Song, <span class="me">Wen Luo</span>, et al.</p>
+        <a class="src" href="https://arxiv.org/abs/2505.12891" target="_blank" rel="noopener">arXiv<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
+
+    <article class="pub" data-role="co">
+      <div class="yr">2025</div>
+      <div>
+        <div class="meta"><span class="badge">ACL 2025</span></div>
+        <h3><a href="https://aclanthology.org/2025.acl-long.839/" target="_blank" rel="noopener">FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation</a></h3>
+        <p class="au">Wei Li, Xin Zhang, Zhongxin Guo, Shaoguang Mao, <span class="me">Wen Luo</span>, et al.</p>
+        <a class="src" href="https://aclanthology.org/2025.acl-long.839/" target="_blank" rel="noopener">ACL Anthology<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
+
+    <article class="pub" data-role="co">
+      <div class="yr">2025</div>
+      <div>
+        <div class="meta"><span class="badge">NAACL 2025</span></div>
+        <h3><a href="https://aclanthology.org/2025.naacl-long.251/" target="_blank" rel="noopener">Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction</a></h3>
+        <p class="au">Wei Li, <span class="me">Wen Luo</span>, Guangyue Peng, Houfeng Wang</p>
+        <a class="src" href="https://aclanthology.org/2025.naacl-long.251/" target="_blank" rel="noopener">ACL Anthology<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
+
+    <article class="pub" data-role="co">
+      <div class="yr">2025</div>
+      <div>
+        <div class="meta"><span class="badge preprint">arXiv 2025</span></div>
+        <h3><a href="https://arxiv.org/abs/2510.09535" target="_blank" rel="noopener">Mitigating Overthinking through Reasoning Shaping</a></h3>
+        <p class="au">Feifan Song, Shaohang Wei, Baoxin Gao, Yiwei Wang, <span class="me">Wen Luo</span>, et al.</p>
+        <a class="src" href="https://arxiv.org/abs/2510.09535" target="_blank" rel="noopener">arXiv<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
+
     <!-- ====== 2024 ====== -->
 
     <article class="pub" data-role="first">
@@ -151,7 +191,7 @@ redirect_from:
   <div class="rows">
     <div class="row">
       <div class="when">2025</div>
-      <p class="what"><b>President's Scholarship</b>, Peking University<span class="honor-rank">Top 1%</span></p>
+      <p class="what"><b>President's Scholarship, Peking University</b><span class="honor-rank">Top 1%</span></p>
     </div>
     <div class="row">
       <div class="when">2025</div>
@@ -159,7 +199,7 @@ redirect_from:
     </div>
     <div class="row">
       <div class="when">2025</div>
-      <p class="what"><b>Award for Scientific Research</b>, Peking University</p>
+      <p class="what"><b>Award for Scientific Research, Peking University</b></p>
     </div>
     <div class="row">
       <div class="when">2022</div>

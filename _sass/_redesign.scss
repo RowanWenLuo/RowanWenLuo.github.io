@@ -195,6 +195,7 @@ section{padding-top:64px;scroll-margin-top:24px}
 }
 .badge.preprint{border-color:var(--line);color:var(--ink-2)}
 .badge.oral{background:var(--accent);border-color:var(--accent);color:var(--badge-on)}
+.badge.spotlight{background:var(--accent);border-color:var(--accent);color:var(--badge-on)}
 .role{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-2);text-transform:uppercase}
 .role::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:6px;vertical-align:1px}
 .pub h3{font-size:19.5px;line-height:1.4;margin:0 0 7px;font-weight:500;letter-spacing:-.005em}
